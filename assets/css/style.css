@@ -20,7 +20,7 @@ body {
     font-size: 48px;
 }
 
-.seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
@@ -86,19 +86,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit h3 {
+.benefit-general {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
-
-
-.benefit img {
+.benefit-general h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-.content div {
+
+.benefit-general img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.content-general {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -107,13 +111,18 @@ p {
     color: #ffffff;
 }
 
-.content img {
+
+.content-general img {
     max-height: 200px;
 }
-.content h2 {
+
+
+.content-general h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+
 .footer {
     padding: 30px;
     clear: both;
